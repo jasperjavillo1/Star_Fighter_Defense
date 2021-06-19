@@ -1085,6 +1085,8 @@ GameObject:
   - component: {fileID: 2021576426}
   - component: {fileID: 2021576430}
   - component: {fileID: 2021576431}
+  - component: {fileID: 2021576433}
+  - component: {fileID: 2021576432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1119,7 +1121,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2021576427}
   selectedCommands:
-  - {fileID: 2021576431}
+  - {fileID: 2021576432}
   variables: []
   description: 
   stepPause: 0
@@ -1150,7 +1152,7 @@ MonoBehaviour:
     Galactic Coordinates: 1010, 2021,
     3962
 
-    Tachyon Base'
+    Mining and Research Station Tachyon Base'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1191,6 +1193,8 @@ MonoBehaviour:
   - {fileID: 2021576431}
   - {fileID: 2021576430}
   - {fileID: 2021576426}
+  - {fileID: 2021576433}
+  - {fileID: 2021576432}
   suppressAllAutoSelections: 0
 --- !u!114 &2021576428
 MonoBehaviour:
@@ -1223,7 +1227,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2021576430
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1241,7 +1245,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &2021576431
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1260,6 +1264,62 @@ MonoBehaviour:
   orthoSizeTweenType: 0
   posTweenType: 0
   rotTweenType: 0
+--- !u!114 &2021576432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021576424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: However, this also makes the base a prime target for attacks from Space
+    Pirates.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2021576433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021576424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: Here, value research is conducted on the rare materials mined from the
+    surrounding astroids.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2026903647
 GameObject:
   m_ObjectHideFlags: 0
