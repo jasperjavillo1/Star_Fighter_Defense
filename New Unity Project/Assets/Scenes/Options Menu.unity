@@ -519,6 +519,8 @@ GameObject:
   m_Component:
   - component: {fileID: 499979472}
   - component: {fileID: 499979473}
+  - component: {fileID: 499979475}
+  - component: {fileID: 499979474}
   m_Layer: 5
   m_Name: Sensativity Slider
   m_TagString: Untagged
@@ -561,7 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -591,13 +593,55 @@ MonoBehaviour:
   m_FillRect: {fileID: 711766193}
   m_HandleRect: {fileID: 933446044}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 1
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 499979474}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Adjust
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &499979474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499979471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Sensativity
+      Slider","summary":"Controls Sensativity Slider","pan":{"x":167.7598,"y":1.119421},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"0d9ca627-1df4-4be6-a87f-dc40a1af4113","$version":"A","$type":"Bolt.Start","$id":"10"},{"chainable":false,"member":{"name":"value","parameterTypes":null,"targetType":"UnityEngine.UI.Slider","targetTypeName":"UnityEngine.UI.Slider","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":104.0,"y":-143.0},"guid":"52506982-b709-4de4-97a7-8ad28ce9b2ba","$version":"A","$type":"Bolt.SetMember","$id":"12"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"Turn","$type":"System.String"}},"position":{"x":-73.0,"y":-73.0},"guid":"1759c99f-4be2-41ec-8192-acf2e1d9effa","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"coroutine":false,"defaultValues":{"name":{"$content":"Adjust","$type":"System.String"}},"position":{"x":-162.0,"y":82.0},"guid":"493191c9-6e89-4ff4-a010-7b662e9215e3","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"17"},{"kind":"Application","defaultValues":{"name":{"$content":"Turn","$type":"System.String"}},"position":{"x":113.0,"y":80.0},"guid":"d25882a3-f103-41a6-9ca2-1972d00277b8","$version":"A","$type":"Bolt.SetVariable","$id":"19"},{"member":{"name":"value","parameterTypes":null,"targetType":"UnityEngine.UI.Slider","targetTypeName":"UnityEngine.UI.Slider","$version":"A"},"defaultValues":{"target":null},"position":{"x":-57.0,"y":189.0},"guid":"c35b54cc-e4be-4c72-b277-1c226b6f179f","$version":"A","$type":"Bolt.GetMember","$id":"21"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"cc39791d-04e9-4cf1-808f-f96daaf5b041","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"assign","guid":"666c79e4-e915-48b4-b185-4aad0c0d4286","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"0cd52504-3f08-4a4a-b979-a767c4a541dc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"input","guid":"7c677e2f-5d0d-45b9-97d9-96b445a28699","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &499979475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499979471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &514155918
 GameObject:
   m_ObjectHideFlags: 0
