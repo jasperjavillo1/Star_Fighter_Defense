@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Game Mode","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Flight
-      Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Speed","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"Turn","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
