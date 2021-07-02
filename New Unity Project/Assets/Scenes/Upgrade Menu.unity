@@ -1520,7 +1520,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Weapon Name
+  m_Text: Missles
 --- !u!222 &265459637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2639,20 +2639,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8297a2bf97dbbba468bd2518d003a876, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon/Stat Description
-
-'
+  m_Text: Laser blasts will home in on nearby targets.
 --- !u!222 &411862115
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2730,7 +2728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Fire Power
+  m_Text: 'Photon Charges
 
 
     Increases base damage.'
@@ -6082,7 +6080,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Weapon Name
+  m_Text: Charge Cannon
 --- !u!222 &785910461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7705,20 +7703,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8297a2bf97dbbba468bd2518d003a876, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon/Stat Description
-
-'
+  m_Text: Hold the Fire Button to charge. Release the Fire Button to fire a stronger
+    laser blast.
 --- !u!222 &983119801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8881,20 +8878,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8297a2bf97dbbba468bd2518d003a876, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon/Stat Description
-
-'
+  m_Text: Hold the Fire Button to unleash a rapid stream of low damage laser blasts.
 --- !u!222 &1135633322
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12597,7 +12592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Weapon Name
+  m_Text: Rapid Cannon
 --- !u!222 &1618358706
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14780,20 +14775,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8297a2bf97dbbba468bd2518d003a876, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon/Stat Description
-
-'
+  m_Text: Shots are slower but deal more damage.
 --- !u!222 &1840532932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15749,7 +15742,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Boosters
+  m_Text: 'Thrusters
 
 
     Increases flgiht speed of the ship.'
@@ -16868,7 +16861,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Weapon Name
+  m_Text: Homing Laser
 --- !u!222 &2111750880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16946,7 +16939,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'HP
+  m_Text: 'Armor
 
 
     Increases the total damage the ship can take.'
