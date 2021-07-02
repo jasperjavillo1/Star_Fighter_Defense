@@ -2065,6 +2065,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358829873}
+  - component: {fileID: 358829875}
+  - component: {fileID: 358829874}
   m_Layer: 5
   m_Name: Weapon Module (2)
   m_TagString: Untagged
@@ -2094,6 +2096,39 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &358829874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358829872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
+--- !u!114 &358829875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358829872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2130142698}
+    - {fileID: 2144064488}
+    - {fileID: 1150642120}
 --- !u!1001 &360865791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9208,6 +9243,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150642121}
+  - component: {fileID: 1150642123}
+  - component: {fileID: 1150642122}
   m_Layer: 5
   m_Name: Weapon Module (3)
   m_TagString: Untagged
@@ -9237,6 +9274,39 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -60}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1150642122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150642120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
+--- !u!114 &1150642123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150642120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2130142698}
+    - {fileID: 2144064488}
+    - {fileID: 358829872}
 --- !u!1 &1150984695
 GameObject:
   m_ObjectHideFlags: 0
@@ -17033,6 +17103,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2130142699}
+  - component: {fileID: 2130142701}
+  - component: {fileID: 2130142700}
   m_Layer: 5
   m_Name: Weapon Module
   m_TagString: Untagged
@@ -17062,6 +17134,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2130142700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130142698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e624645d997c9724cb34ffb5514c58d8, type: 2}
+--- !u!114 &2130142701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130142698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Price","value":{"$content":1000,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2144064488}
+    - {fileID: 358829872}
+    - {fileID: 1150642120}
 --- !u!1001 &2134686223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17144,6 +17250,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144064489}
+  - component: {fileID: 2144064491}
+  - component: {fileID: 2144064490}
   m_Layer: 5
   m_Name: Weapon Module (1)
   m_TagString: Untagged
@@ -17173,3 +17281,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 60}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2144064490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144064488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
+--- !u!114 &2144064491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144064488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2130142698}
+    - {fileID: 358829872}
+    - {fileID: 1150642120}
