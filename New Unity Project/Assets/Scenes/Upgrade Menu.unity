@@ -1871,7 +1871,6 @@ GameObject:
   - component: {fileID: 310076854}
   - component: {fileID: 310076853}
   - component: {fileID: 310076852}
-  - component: {fileID: 310076855}
   m_Layer: 5
   m_Name: Action Button
   m_TagString: Untagged
@@ -2001,21 +2000,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310076850}
   m_CullTransparentMesh: 0
---- !u!114 &310076855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310076850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &321569914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,7 +2306,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 362576439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2144064490}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Purchase
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144064490}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Equip/Dequip
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &362576439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3636,6 +3642,8 @@ GameObject:
   - component: {fileID: 485059514}
   - component: {fileID: 485059516}
   - component: {fileID: 485059515}
+  - component: {fileID: 485059518}
+  - component: {fileID: 485059517}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3705,6 +3713,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485059513}
   m_CullTransparentMesh: 0
+--- !u!114 &485059517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485059513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7656269cb28e94e489d05c76498d4db3, type: 2}
+--- !u!114 &485059518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485059513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent Weapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1150642120}
 --- !u!1001 &498194634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5028,7 +5068,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 635830740}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 358829874}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Purchase
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 358829874}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Equip/Dequip
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &635830740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6782,6 +6844,8 @@ GameObject:
   - component: {fileID: 878383680}
   - component: {fileID: 878383682}
   - component: {fileID: 878383681}
+  - component: {fileID: 878383684}
+  - component: {fileID: 878383683}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6851,6 +6915,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878383679}
   m_CullTransparentMesh: 0
+--- !u!114 &878383683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878383679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7656269cb28e94e489d05c76498d4db3, type: 2}
+--- !u!114 &878383684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878383679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent Weapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2144064488}
 --- !u!1001 &902624811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13827,7 +13923,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1712459216}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1150642122}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Purchase
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1150642122}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Equip/Dequip
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1712459216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15235,6 +15353,8 @@ GameObject:
   - component: {fileID: 1854389916}
   - component: {fileID: 1854389918}
   - component: {fileID: 1854389917}
+  - component: {fileID: 1854389920}
+  - component: {fileID: 1854389919}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -15304,6 +15424,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854389915}
   m_CullTransparentMesh: 0
+--- !u!114 &1854389919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854389915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7656269cb28e94e489d05c76498d4db3, type: 2}
+--- !u!114 &1854389920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854389915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent Weapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 358829872}
 --- !u!1001 &1867563649
 PrefabInstance:
   m_ObjectHideFlags: 0
