@@ -947,7 +947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"SLD","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &139556974
 PrefabInstance:
@@ -2469,7 +2469,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"Flgiht
+      Speed","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &390817132
 PrefabInstance:
@@ -3098,7 +3099,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 426480882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 877163649}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Upgrade
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &426480882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6370,6 +6382,8 @@ GameObject:
   - component: {fileID: 807927117}
   - component: {fileID: 807927119}
   - component: {fileID: 807927118}
+  - component: {fileID: 807927121}
+  - component: {fileID: 807927120}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -6437,6 +6451,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807927116}
   m_CullTransparentMesh: 0
+--- !u!114 &807927120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807927116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c51df769777444543a946bf4073bcd95, type: 2}
+--- !u!114 &807927121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807927116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1656383935}
 --- !u!1 &828549286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6964,7 +7010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"Max_HP","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &878383679
 GameObject:
@@ -10414,7 +10460,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1227528519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 128537336}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Upgrade
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1227528519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11326,6 +11383,8 @@ GameObject:
   - component: {fileID: 1352055754}
   - component: {fileID: 1352055756}
   - component: {fileID: 1352055755}
+  - component: {fileID: 1352055758}
+  - component: {fileID: 1352055757}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -11393,6 +11452,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352055753}
   m_CullTransparentMesh: 0
+--- !u!114 &1352055757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352055753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c51df769777444543a946bf4073bcd95, type: 2}
+--- !u!114 &1352055758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352055753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 371994835}
 --- !u!1 &1355944202
 GameObject:
   m_ObjectHideFlags: 0
@@ -11964,7 +12055,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1433227511}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 371994837}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Upgrade
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1433227511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13631,7 +13733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"ATK","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &1660759227
 PrefabInstance:
@@ -14921,6 +15023,8 @@ GameObject:
   - component: {fileID: 1793279754}
   - component: {fileID: 1793279756}
   - component: {fileID: 1793279755}
+  - component: {fileID: 1793279758}
+  - component: {fileID: 1793279757}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -14988,6 +15092,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793279753}
   m_CullTransparentMesh: 0
+--- !u!114 &1793279757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793279753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c51df769777444543a946bf4073bcd95, type: 2}
+--- !u!114 &1793279758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793279753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 128537334}
 --- !u!1 &1798950055
 GameObject:
   m_ObjectHideFlags: 0
@@ -16097,6 +16233,8 @@ GameObject:
   - component: {fileID: 1947961800}
   - component: {fileID: 1947961802}
   - component: {fileID: 1947961801}
+  - component: {fileID: 1947961804}
+  - component: {fileID: 1947961803}
   m_Layer: 5
   m_Name: Price
   m_TagString: Untagged
@@ -16164,6 +16302,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947961799}
   m_CullTransparentMesh: 0
+--- !u!114 &1947961803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947961799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c51df769777444543a946bf4073bcd95, type: 2}
+--- !u!114 &1947961804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947961799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Parent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 877163647}
 --- !u!1 &1957542057
 GameObject:
   m_ObjectHideFlags: 0
@@ -16642,7 +16812,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2001387518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1656383937}
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Upgrade
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2001387518
 MonoBehaviour:
   m_ObjectHideFlags: 0
