@@ -369,7 +369,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"Rotational
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotational
-      Angle","value":{"$content":-10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Angle","value":{"$content":-10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":250,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &239442809
 Rigidbody:
@@ -1668,7 +1668,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Angle","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &795877934
 Rigidbody:
@@ -3953,7 +3953,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &1747828932
 Rigidbody:
@@ -4105,7 +4105,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"Rotational
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotational
-      Angle","value":{"$content":-5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Angle","value":{"$content":-5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":40,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":200,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &1795688774
 Rigidbody:
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":9,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":150,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &1850339371
 Rigidbody:
