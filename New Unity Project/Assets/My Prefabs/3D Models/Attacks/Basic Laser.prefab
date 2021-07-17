@@ -46,9 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":120,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Self","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 4957926160908944757}
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":120,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!114 &4957926160908944762
 MonoBehaviour:
   m_ObjectHideFlags: 0

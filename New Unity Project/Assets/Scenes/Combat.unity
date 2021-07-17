@@ -767,7 +767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 280, y: 122}
+  m_AnchoredPosition: {x: 370, y: 170}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547295287
@@ -824,7 +824,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 1004387188}
+      - m_Target: {fileID: 0}
         m_MethodName: TriggerUnityEvent
         m_Mode: 5
         m_Arguments:
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1915,7 +1915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -90}
+  m_AnchoredPosition: {x: 330, y: -130}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944528829
@@ -2173,13 +2173,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004387185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: eefac0a1e338e194bb0ede5f7bd56591, type: 2}
+    - {fileID: 11400000, guid: dfcc07f843b5b69418c58f22c85def6b, type: 2}
 --- !u!114 &1004387189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,7 +2884,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1004387188}
+      - m_Target: {fileID: 0}
         m_MethodName: TriggerUnityEvent
         m_Mode: 5
         m_Arguments:
@@ -3379,6 +3379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Station
       objectReference: {fileID: 0}
+    - target: {fileID: 4900028681053656759, guid: 72a8e84214ce14f4d8ad3674635e6011,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72a8e84214ce14f4d8ad3674635e6011, type: 3}
 --- !u!1001 &1597515835
@@ -3573,7 +3578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -250, y: -90}
+  m_AnchoredPosition: {x: -330, y: -130}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677764759
@@ -3619,7 +3624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1004387188}
+      - m_Target: {fileID: 0}
         m_MethodName: TriggerUnityEvent
         m_Mode: 5
         m_Arguments:
@@ -4500,7 +4505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128, y: 122}
+  m_AnchoredPosition: {x: -215, y: 165}
   m_SizeDelta: {x: 256, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880129498

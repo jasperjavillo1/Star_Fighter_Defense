@@ -1455,6 +1455,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4957926160908944763, guid: c026856a34b3021479e25b7315ac21e2,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957926160908944763, guid: c026856a34b3021479e25b7315ac21e2,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":120,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c026856a34b3021479e25b7315ac21e2, type: 3}
 --- !u!1001 &6323903009762289115
