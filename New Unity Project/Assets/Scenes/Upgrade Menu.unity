@@ -1699,7 +1699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Missles
+  m_Text: Missiles
 --- !u!222 &265459637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2326,7 +2326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Price","value":{"$content":1000,"$type":"System.Int32"},"$version":"A"},{"name":"Name","value":{"$content":"Missles","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"State","value":{"$content":"Locked","$type":"System.String"},"$version":"A"},{"name":"Other1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Other3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Price","value":{"$content":1000,"$type":"System.Int32"},"$version":"A"},{"name":"Name","value":{"$content":"Missiles","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2130142698}
     - {fileID: 2144064488}
