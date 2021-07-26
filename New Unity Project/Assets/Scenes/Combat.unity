@@ -587,10 +587,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Paused","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Photon
-      Dragon","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Dragon","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"targetText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1004387185}
     - {fileID: 1159428312}
+    - {fileID: 397682507}
 --- !u!4 &353211772
 Transform:
   m_ObjectHideFlags: 0
@@ -616,6 +617,8 @@ GameObject:
   - component: {fileID: 397682508}
   - component: {fileID: 397682510}
   - component: {fileID: 397682509}
+  - component: {fileID: 397682512}
+  - component: {fileID: 397682511}
   m_Layer: 5
   m_Name: Countdown
   m_TagString: Untagged
@@ -683,6 +686,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397682507}
   m_CullTransparentMesh: 0
+--- !u!114 &397682511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397682507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":8.003517,"y":25.92899},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-166.0,"y":-13.0},"guid":"3c53ddaf-758f-431f-b6e9-6e408fc51ee4","$version":"A","$type":"Bolt.Update"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &397682512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397682507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Time","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &472123893
 GameObject:
   m_ObjectHideFlags: 0
