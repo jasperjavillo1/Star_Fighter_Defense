@@ -1020,7 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"SLD","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"SLD","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &139556974
 PrefabInstance:
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"Flight
-      Speed","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Speed","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &390817132
 PrefabInstance:
@@ -7305,7 +7305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"Max_HP","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"Max_HP","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &878383679
 GameObject:
@@ -14396,7 +14396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"ATK","$type":"System.String"},"$version":"A"},{"name":"Multiplier","value":{"$content":5,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Stat","value":{"$content":"ATK","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &1660759227
 PrefabInstance:
