@@ -529,7 +529,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
       Angle","value":{"$content":-10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":250,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Missiles","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 707003937}
 --- !u!54 &239442809
@@ -2223,7 +2223,7 @@ MonoBehaviour:
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
       Angle","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Charge
       Cannon","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 560272028}
 --- !u!54 &795877934
@@ -2862,7 +2862,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Default Orientation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"HP","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Equipped","value":{"$content":"Basic","$type":"System.String"},"$version":"A"},{"name":"Flight
       Speed","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Enemy","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 944528827}
     - {fileID: 171039701}
@@ -4765,7 +4765,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
       Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"DetectionRange","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"Equipped","value":{"$content":"Basic","$type":"System.String"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1400847207}
 --- !u!54 &1747828932
@@ -4921,7 +4921,7 @@ MonoBehaviour:
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
       Angle","value":{"$content":-5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":40,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":200,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Homing
       Laser","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1729597907}
 --- !u!54 &1795688774
@@ -5142,7 +5142,7 @@ MonoBehaviour:
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
       Angle","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":9,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":150,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Rapid
       Cannon","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
-      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 615320335}
 --- !u!54 &1850339371
