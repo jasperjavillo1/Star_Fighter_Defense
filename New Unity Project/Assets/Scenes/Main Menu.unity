@@ -929,7 +929,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 86c94b34c2aa45345bf019c284819b19, type: 2}
+    - {fileID: 11400000, guid: 4edb75030780bfd47b4a74bb84bc132b, type: 2}
 --- !u!114 &1662102583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,7 +943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Target Scene","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Target Scene","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"Mode","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1694655739
 GameObject:
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 86c94b34c2aa45345bf019c284819b19, type: 2}
+    - {fileID: 11400000, guid: 4edb75030780bfd47b4a74bb84bc132b, type: 2}
 --- !u!114 &1694655745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Target Scene","value":{"$content":4,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Target Scene","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"Mode","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &2019591133
 GameObject:
