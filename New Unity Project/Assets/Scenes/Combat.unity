@@ -680,11 +680,12 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Paused","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Photon
       Dragon","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"targetText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Enemy
-      Count","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Count","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Spawner","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1004387185}
     - {fileID: 1159428312}
     - {fileID: 397682507}
+    - {fileID: 1780197728}
 --- !u!4 &353211772
 Transform:
   m_ObjectHideFlags: 0
