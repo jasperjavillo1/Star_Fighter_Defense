@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - HUD Warning
+  - Base
   layers:
   - Default
   - TransparentFX
