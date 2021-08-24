@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Upgrade Menu.unity
     guid: 4f8c9278f42329943acfa33c140d2c1b
+  - enabled: 1
+    path: Assets/Scenes/Win Cutscene.unity
+    guid: ad803b21b8a651f4988c47567fd7030a
   m_configObjects: {}
