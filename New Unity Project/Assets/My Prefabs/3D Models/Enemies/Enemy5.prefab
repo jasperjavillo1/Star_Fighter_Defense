@@ -67,7 +67,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":-10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":250,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Missiles","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
+      Angle","value":{"$content":-10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":25,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":200,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Missiles","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
       Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3242754960568371021}

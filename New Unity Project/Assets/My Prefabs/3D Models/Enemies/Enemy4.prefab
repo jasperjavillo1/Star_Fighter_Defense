@@ -219,7 +219,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":-5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":40,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":200,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Homing
+      Angle","value":{"$content":-5,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":40,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":12,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Homing
       Laser","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
       Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:

@@ -67,7 +67,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Rotation
       Axis","value":{"x":1.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Rotation
-      Angle","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Charge
+      Angle","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"Equipped","value":{"$content":"Charge
       Cannon","$type":"System.String"},"$version":"A"},{"name":"DetectionRange","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"Fire
       Point","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Target","value":{"$content":"Player","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
