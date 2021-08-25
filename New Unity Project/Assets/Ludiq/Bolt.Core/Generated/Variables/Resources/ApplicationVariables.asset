@@ -16,6 +16,6 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Game Mode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Wave","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Turn","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Max_HP","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"SLD","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"ATK","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Flight
       Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"EXP","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Charge
       Cannon","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Homing
-      Laser","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Missles","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Rapid
+      Laser","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Missiles","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Rapid
       Cannon","value":{"$content":"Unavailable","$type":"System.String"},"$version":"A"},{"name":"Equipped","value":{"$content":"Basic","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []

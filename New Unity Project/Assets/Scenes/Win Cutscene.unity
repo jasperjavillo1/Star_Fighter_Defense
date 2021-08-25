@@ -1688,9 +1688,9 @@ MonoBehaviour:
   targetView: {fileID: 675980066}
   waitUntilFinished: 1
   targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
+  orthoSizeTweenType: 0
+  posTweenType: 0
+  rotTweenType: 0
 --- !u!114 &1873722563
 MonoBehaviour:
   m_ObjectHideFlags: 0
