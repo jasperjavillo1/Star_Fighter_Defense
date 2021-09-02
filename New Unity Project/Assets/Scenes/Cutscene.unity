@@ -4871,7 +4871,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2021576427}
   selectedCommands:
-  - {fileID: 2021576438}
+  - {fileID: 2021576435}
   variables: []
   description: 
   stepPause: 0
@@ -4929,9 +4929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 64
-    y: 69
-    width: 77
+    x: 63
+    y: 67
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -5064,8 +5064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Here, value research is conducted on the rare materials mined from the
-    surrounding asteroids.
+  storyText: Here, valueable research is conducted on the rare materials mined from
+    the surrounding asteroids.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
